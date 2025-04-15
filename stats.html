@@ -1,34 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cricket Stats</title>
-    <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            overflow: hidden; /* prevent scroll */
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fullscreen Sheet</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
 
-        iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-            border: none;
-        }
-
-        #header, #footer {
-            display: none;
-        }
-    </style>
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+    }
+  </style>
 </head>
 <body>
-    <div id="header"></div>
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQCgLCTDtoCI-lrlNK3nRhDjGbNlm5dUNPDP1Mz7ipv6tBWZLbfKDALpyATCXK45B1j3Eyg8RRIumUx/pubhtml?gid=1023198928&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-    <div id="footer"></div>
+  <iframe 
+    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQCgLCTDtoCI-lrlNK3nRhDjGbNlm5dUNPDP1Mz7ipv6tBWZLbfKDALpyATCXK45B1j3Eyg8RRIumUx/pubhtml?gid=1023198928&amp;single=true&amp;widget=true&amp;headers=false">
+  </iframe>
 </body>
 </html>
